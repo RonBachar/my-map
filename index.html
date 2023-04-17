@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="./css/style.css" />
     <title>My Map App</title>
   </head>
   <body>
@@ -21,12 +20,7 @@
 
       <aside>
         <h1>Saved Places</h1>
-        <ul id="saved-list">
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit.</li>
-        </ul>
+        <ul id="saved-list"></ul>
       </aside>
 
       <main>
@@ -38,12 +32,11 @@
       </footer>
     </div>
 
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClGMd8GeenfWwRb-8ru-K5kH7IdTbSwEkY&callback=initMap"
-      async
-      defer
-    ></script>
-    <script src="./js/service.js"></script>
     <script src="./js/main.js"></script>
+    <script
+      defer
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClGMd8GeenfWwRb-8ru-K5kH7IdTbSwEk&callback=myMap"
+    ></script>
   </body>
 </html>

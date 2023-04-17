@@ -11,6 +11,8 @@ body {
 .wrapper {
   /* border: 5px solid deeppink; */
   min-height: 100vh;
+  margin: 0 auto;
+  max-width: 80rem;
 
   display: flex;
   flex-wrap: wrap;
