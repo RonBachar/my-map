@@ -1,8 +1,17 @@
-function myMap() {
-  var mapProp = {
-    center: new google.maps.LatLng(51.508742, -0.12085),
-    zoom: 5,
-  };
+// Initialize the map
 
-  var map = new google.maps.Map(document.getElementById('googleMap'), mapProp);
-}
+
+function initMap(){
+
+    const map = new google.maps.Map(document.getElementById('googleMap'), {
+      zoom: 8, // Set the zoom level
+      center: { lat: -34.397, lng: 150.644 }, // Set the center of the map
+    });
+    
+    console.log('map: ', map);
+
+}    
+
+
+
+
